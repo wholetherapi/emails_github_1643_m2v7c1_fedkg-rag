@@ -1,0 +1,12 @@
+model:
+  encoder_dim: 768
+  hidden_dim: 1024
+  num_graphs: 3
+datasets:
+  - fb15k-237
+  - wn18rr
+  - ogb-mol
+training:
+  epochs: 30
+  batch_size: 32
+  lr: 0.0003
